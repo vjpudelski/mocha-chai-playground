@@ -1,0 +1,26 @@
+{
+  "name": "mocha-chai-playground",
+  "version": "1.0.0",
+  "description": "mocha test framework exploration with chai assertion library",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjpudelski/mocha-chai-playground.git"
+  },
+  "author": "Victor J. Pudelski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vjpudelski/mocha-chai-playground/issues"
+  },
+  "homepage": "https://github.com/vjpudelski/mocha-chai-playground#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
